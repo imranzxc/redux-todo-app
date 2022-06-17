@@ -1,0 +1,25 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 20px 0;
+  padding: 0 20px;
+  width: 100%;
+  background-color: rgb(39, 155, 134);
+  border-radius: inherit;
+}
+
+.removeMarker {
+  cursor: pointer;
+}
+
+.completedMarker {
+  cursor: pointer;
+ 
+}
+
+.uncompletedMarker {
+  cursor: pointer;
+
+}
